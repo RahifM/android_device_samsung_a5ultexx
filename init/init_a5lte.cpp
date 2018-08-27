@@ -62,8 +62,8 @@ void vendor_load_properties()
         init_dsds();
     } else if (bootloader.find("A500G") == 0) {
         /* SM-A500G */
-        property_set("ro.build.fingerprint", "samsung/a5ltedd/a5lte:5.0.2/LRX22G/A500GXXU1BOJ2:user/release-keys");
-        property_set("ro.build.description", "a5ltedd-user 5.0.2 LRX22G A500GXXU1BOJ2 release-keys");
+        property_set("ro.build.fingerprint", "samsung/a5ltedd/a5lte:6.0.1/MMB29M/A500GXXU1CQG1:user/release-keys");
+        property_set("ro.build.description", "a5ltedd-user 6.0.1 MMB29M A500GXXU1CQG1 release-keys");
         property_set("ro.product.model", "SM-A500G");
         property_set("ro.product.device", "a5lte");
 
