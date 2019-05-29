@@ -21,7 +21,7 @@
 #
 
 # Inherit from common a5
--include device/samsung/a5-common/BoardConfigCommon.mk
+-include device/samsung/msm8916-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
 -include vendor/samsung/a5ultexx/BoardConfigVendor.mk
@@ -33,3 +33,7 @@ TARGET_OTA_ASSERT_DEVICE := a5ulte,a5ultexx,a5lte
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_a5lte
 TARGET_RECOVERY_DEVICE_MODULES := libinit_a5lte
+
+TARGET_QCOM_AUDIO_VARIANT := caf-msm8916
+TARGET_QCOM_DISPLAY_VARIANT := caf-msm8916
+TARGET_QCOM_MEDIA_VARIANT := caf-msm8916
