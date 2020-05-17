@@ -1,1 +1,2 @@
-add_lunch_combo lineage_a5ultexx-userdebug
+add_lunch_combo aosp_a5ultexx-eng
+add_lunch_combo aosp_a5ultexx-userdebug

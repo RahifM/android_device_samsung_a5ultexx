@@ -10,4 +10,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    device/samsung/a5ultexx/lineage_a5ultexx.mk
+    device/samsung/a5ultexx/aosp_a5ultexx.mk
